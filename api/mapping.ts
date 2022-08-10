@@ -97,7 +97,7 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     receiptType: ReceiptType.Original,
     imageUrl:
       //'https://ancestors.digital/images/sorted_gallery/49.png',
-      'https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreih44aldebi2j6gsyixkcggmkuvgd4lwzm2jkskfxgc6jevlbshpbq.ipfs.dweb.link/',
+      'https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreih44aldebi2j6gsyixkcggmkuvgd4lwzm2jkskfxgc6jevlbshpbq.ipfs.dweb.link/', 
     maxStaked: 2777,
     links: [
       {

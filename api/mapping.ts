@@ -88,6 +88,36 @@ export const stakePoolMetadatas: StakePoolMetadata[] = [
     },
   },
   {
+    name: 'descendants',
+    displayName: 'Descendants',
+    stakePoolAddress: new PublicKey(
+      'FkrXko4EU9Zmp5pU5rPLVEoeJZ1uesFuP8dJ2LTKxVD3'
+    ),
+    websiteUrl: 'https://ancestors.digital/',
+    receiptType: ReceiptType.Original,
+    imageUrl:
+      //'https://ancestors.digital/images/sorted_gallery/49.png',
+      'https://img-cdn.magiceden.dev/rs:fill:400:400:0:0/plain/https://bafkreih44aldebi2j6gsyixkcggmkuvgd4lwzm2jkskfxgc6jevlbshpbq.ipfs.dweb.link/',
+    maxStaked: 2777,
+    links: [
+      {
+        text: 'Descendants',
+        value: 'https://magiceden.io/marketplace/descendants',
+      },
+      {
+        text: 'Ancestors',
+        value: 'https://magiceden.io/marketplace/ancestors',
+      },
+    ],
+    colors: {
+      primary: '#000000',
+      secondary: '#4da1de',
+      accent: '#1fcfb11c',
+      fontColor: '#FFFFFF',
+    },
+    //airdrops: [],
+  },
+  {
     name: 'AOM',
     displayName: 'AOM',
     stakePoolAddress: new PublicKey(

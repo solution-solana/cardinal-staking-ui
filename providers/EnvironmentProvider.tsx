@@ -20,8 +20,8 @@ export interface EnvironmentContextValues {
 export const ENVIRONMENTS: Environment[] = [
   {
     label: 'mainnet-beta',
-    primary: process.env.MAINNET_PRIMARY || 'https://ssc-dao.genesysgo.net',
-    secondary: 'https://ssc-dao.genesysgo.net',
+    primary: process.env.MAINNET_PRIMARY || 'https://cold-dry-river.solana-mainnet.quiknode.pro/9470e56413825d33e65e005651bb60d386f4c6de/',
+    secondary: 'https://cold-dry-river.solana-mainnet.quiknode.pro/9470e56413825d33e65e005651bb60d386f4c6de/',
   },
   {
     label: 'testnet',
